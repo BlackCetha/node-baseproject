@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-consistent-codestyle",
+        "tslint-clean-code"
+    ],
+    "jsRules": {},
+    "rules": {
+        "space-before-function-paren": true
+    },
+    "rulesDirectory": [],
+    "no-angle-bracket-type-assertion": true
+}

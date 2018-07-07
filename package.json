@@ -1,0 +1,24 @@
+{
+  "name": "node_baseproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "tslint --project . --fix",
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && npm run lint && npm run compile",
+    "compile": "tsc",
+    "test": "tslint --project . && npm run compile",
+    "start": "node ./dist/index"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.10.0",
+    "tslint-clean-code": "^0.2.7",
+    "tslint-consistent-codestyle": "^1.13.2",
+    "typescript": "^2.9.2"
+  }
+}

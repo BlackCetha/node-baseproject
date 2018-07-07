@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "allowJs": false,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "newLine": "LF",
+        "preserveConstEnums": false,
+        "removeComments": true
+    }
+}
